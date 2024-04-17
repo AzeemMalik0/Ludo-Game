@@ -7,25 +7,13 @@ public class AINode : MonoBehaviour
 {
 
     public List<PlayerToken> allPlayer,redPlayers, yellowPlayers, greenPlayers, bluePlayers;
-    List<PlayerAI> playersIndex = new List<PlayerAI>();
-    PlayerAI player;
+    
     public List<int> playerIndexeres;
     public int playerIndex=0;
     public bool isSafeNode;
 
     private void Start()
     {
-        for (int i=0; i < PlayersManager.Players.Count; i++)
-        {
-
-            //playersIndex[i].playerIndex= PlayersManager.Players[i].GetPlayerIndex();
-            //player.playerIndex = playersIndex[i].GetPlayerIndex();
-            Debug.LogError("the Player Index is : " + PlayersManager.Players[i].playerIndex);
-            //playerIndex = (int)PlayersManager.Players[i].GetPlayerIndex();
-            player.playerIndex = PlayersManager.Players[i].playerIndex;
-            Debug.LogError("the Player Index is _sf  : " + player.playerIndex);
-
-        }
         //Debug.LogError("the Node Local Position is : " + this.transform.localPosition);
 
     }
@@ -87,11 +75,11 @@ public class AINode : MonoBehaviour
         }
         else
         {
-
-            switch (playerIndex)
+            playerIndex = other.gameObject.GetComponent<PlayerToken>().player.playerIndex;
+            switch (other.gameObject.GetComponent<PlayerToken>().player.playerIndex)
             {
                 case 1:
-                    Debug.LogError("the Player Index is : " + playerIndex);
+                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
                     bluePlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     Debug.LogError("Blue Players Added Triggered Triggered");
 
@@ -99,19 +87,19 @@ public class AINode : MonoBehaviour
 
 
                 case 2:
-                    Debug.LogError("the Player Index is : " + playerIndex);
+                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
                     redPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     Debug.LogError("Red Players Added Triggered Triggered");
                     return;
 
                 case 3:
-                    Debug.LogError("the Player Index is : " + playerIndex);
+                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
                     greenPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     Debug.LogError("Green Players Added Triggered Triggered");
                     return;
 
                 case 4:
-                    Debug.LogError("the Player Index is : " + playerIndex);
+                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
                     yellowPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     Debug.LogError("Yellow Players Added Triggered Triggered");
                     return;
@@ -185,8 +173,8 @@ public class AINode : MonoBehaviour
         }
         else
         {
-            Debug.LogError("the Player Index is : " + playerIndex);
-            switch (playerIndex)
+            Debug.LogError("the Player Index is on Exit: " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
+            switch (other.gameObject.GetComponent<PlayerToken>().player.playerIndex)
             {
                 case 1:
                     bluePlayers.Remove(other.gameObject.GetComponent<PlayerToken>());

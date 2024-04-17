@@ -10,6 +10,7 @@ namespace com.bhambhoo.fairludo
     {
         public static PlayersManager Instance;
         public static List<PlayerAI> Players = new List<PlayerAI>();
+        public PlayerAI playersIndexer;
         public List<int> playerIndexs;
         private void OnEnable()
         {
@@ -27,6 +28,9 @@ namespace com.bhambhoo.fairludo
             for (int i = 0; i < Players.Count; i++)
             {
                  Debug.LogError("players are : " + Players[i].GetPlayerIndex());
+
+                //playersIndexer.playerIndex = Players[i].GetPlayerIndex();
+                //Debug.LogError("the Player Index is _sf  : " + playersIndexer.GetPlayerIndex());
                 //playerIndexs[i-1] = (int)Players[i].GetPlayerIndex();
             }
         }
