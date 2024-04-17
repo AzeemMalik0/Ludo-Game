@@ -10,7 +10,7 @@ namespace com.bhambhoo.fairludo
     {
         public static PlayersManager Instance;
         public static List<PlayerAI> Players = new List<PlayerAI>();
-
+        public List<int> playerIndexs;
         private void OnEnable()
         {
             Instance = this;
@@ -26,8 +26,8 @@ namespace com.bhambhoo.fairludo
         {
             for (int i = 0; i < Players.Count; i++)
             {
-
-            Debug.LogError("players are : " + Players[i].playerIndex);
+                 Debug.LogError("players are : " + Players[i].GetPlayerIndex());
+                //playerIndexs[i-1] = (int)Players[i].GetPlayerIndex();
             }
         }
 
