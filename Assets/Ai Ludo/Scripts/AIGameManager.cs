@@ -30,6 +30,11 @@ namespace com.bhambhoo.fairludo
         [Header("Level Failed and Complete Panels")]
         public GameObject level_Failed_Panel;
         public GameObject level_Complete_Panel;
+
+        [Header("Life and Kill Effects")]
+        public List<GameObject> lifeEffects;
+        public List<GameObject> deathffects;
+
         private void OnEnable()
         {
             Instance = this;

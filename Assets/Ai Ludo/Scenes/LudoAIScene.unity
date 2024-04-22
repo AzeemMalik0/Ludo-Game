@@ -167,11 +167,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &12946364
 GameObject:
@@ -218,11 +224,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &12946367
 BoxCollider:
@@ -281,11 +293,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &30757954
 GameObject:
@@ -332,11 +350,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &30757957
 BoxCollider:
@@ -430,11 +454,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &45641449
 GameObject:
@@ -511,11 +541,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &61307822
 GameObject:
@@ -592,11 +628,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &77969681
 GameObject:
@@ -624,7 +666,7 @@ Transform:
   m_GameObject: {fileID: 77969681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.107547, y: 9.107547, z: 9.107547}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1014698918}
@@ -726,11 +768,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &82029484
 GameObject:
@@ -776,11 +824,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &114967430
 GameObject:
@@ -973,11 +1027,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &168182014
 GameObject:
@@ -1003,7 +1063,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168182014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -2.3, z: 2.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1229,11 +1289,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &243614821
 GameObject:
@@ -1279,11 +1345,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &264150520
 GameObject:
@@ -1329,11 +1401,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &268208570
 GameObject:
@@ -1379,11 +1457,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &268332008
 GameObject:
@@ -1429,11 +1513,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &269381733
 GameObject:
@@ -1480,11 +1570,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &269381736
 BoxCollider:
@@ -1626,11 +1722,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &320741344
 GameObject:
@@ -1657,7 +1759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320741344}
   m_LocalRotation: {x: 0.7075177, y: -0, z: -0, w: 0.70669574}
-  m_LocalPosition: {x: -22.2, y: 0.7, z: 20.1}
+  m_LocalPosition: {x: -22.2, y: -2.5, z: 22.7}
   m_LocalScale: {x: 32.980145, y: 32.98014, z: 32.98014}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1827,11 +1929,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &343840667
 BoxCollider:
@@ -1987,11 +2095,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &388605794
 GameObject:
@@ -2037,11 +2151,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &422553390
 GameObject:
@@ -2087,11 +2207,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &430133505
 GameObject:
@@ -2218,11 +2344,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &448712720
 BoxCollider:
@@ -2492,14 +2624,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495336784}
-  m_LocalRotation: {x: 0.19789617, y: 0.009094586, z: 0.2301756, w: 0.95277154}
+  m_LocalRotation: {x: 0.4616391, y: 0.07442185, z: 0.21800208, w: 0.85663635}
   m_LocalPosition: {x: -1.2697816, y: 1.7664913, z: -1.4770644}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 21.895, y: 6.711, z: 28.463}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 49.329, y: 30.297, z: 42.729}
 --- !u!1 &501564370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,11 +2791,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &532620089
 GameObject:
@@ -2675,7 +2813,6 @@ GameObject:
   m_Component:
   - component: {fileID: 532620090}
   - component: {fileID: 532620093}
-  - component: {fileID: 532620092}
   - component: {fileID: 532620091}
   m_Layer: 0
   m_Name: Star (2)
@@ -2683,7 +2820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &532620090
 Transform:
   m_ObjectHideFlags: 0
@@ -2692,7 +2829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532620089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.025, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2741,19 +2878,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &532620092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532620089}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &532620093
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2837,11 +2961,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &572731048
 GameObject:
@@ -2887,11 +3017,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &593280776
 GameObject:
@@ -2937,11 +3073,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &618095872
 GameObject:
@@ -2987,11 +3129,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &660712109
 GameObject:
@@ -3037,11 +3185,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!850595691 &661403300
 LightingSettings:
@@ -3130,7 +3284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666335006}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 23.3, y: 0.9, z: -25.7}
+  m_LocalPosition: {x: 23.4, y: -2.5, z: -23.1}
   m_LocalScale: {x: 32.980145, y: 32.98014, z: 32.98014}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3199,7 +3353,6 @@ GameObject:
   m_Component:
   - component: {fileID: 671204906}
   - component: {fileID: 671204909}
-  - component: {fileID: 671204908}
   - component: {fileID: 671204907}
   m_Layer: 0
   m_Name: Star (1)
@@ -3207,7 +3360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &671204906
 Transform:
   m_ObjectHideFlags: 0
@@ -3216,7 +3369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671204905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.85, z: 0.049}
   m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3265,19 +3418,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &671204908
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671204905}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &671204909
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3414,11 +3554,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &704689947
 GameObject:
@@ -3464,11 +3610,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &730739445
 GameObject:
@@ -3514,11 +3666,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &746501231
 GameObject:
@@ -3564,11 +3722,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &761506206
 GameObject:
@@ -3615,11 +3779,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &765204337
 GameObject:
@@ -3798,11 +3968,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &774103431
 GameObject:
@@ -3829,7 +4005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774103431}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -22.4, y: 0.6, z: -25.7}
+  m_LocalPosition: {x: -22.4, y: -2.5, z: -23.1}
   m_LocalScale: {x: 32.980145, y: 32.98014, z: 32.98014}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4015,11 +4191,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &784833186
 GameObject:
@@ -4065,11 +4247,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &805465327
 GameObject:
@@ -4153,11 +4341,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &842342891
 BoxCollider:
@@ -4216,11 +4410,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &867030219
 GameObject:
@@ -4346,11 +4546,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &898436480
 GameObject:
@@ -4530,11 +4736,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &926615542
 GameObject:
@@ -4617,11 +4829,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &939363583
 GameObject:
@@ -4817,11 +5035,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &998634222
 GameObject:
@@ -4867,11 +5091,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1014698915
 GameObject:
@@ -4883,8 +5113,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1014698918}
   - component: {fileID: 1014698917}
-  - component: {fileID: 1014698916}
   - component: {fileID: 1014698919}
+  - component: {fileID: 1014698920}
   m_Layer: 0
   m_Name: Dice
   m_TagString: Untagged
@@ -4892,32 +5122,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1014698916
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014698915}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.64, y: 3.64}
-    newSize: {x: 3.64, y: 3.64}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.64, y: 3.64}
-  m_EdgeRadius: 0
 --- !u!212 &1014698917
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4977,15 +5181,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014698915}
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: -66.4, y: 0, z: 0}
-  m_LocalScale: {x: 4.4055, y: 4.4055, z: 4.4055}
+  m_LocalRotation: {x: 0.6427876, y: 0, z: 0, w: 0.7660445}
+  m_LocalPosition: {x: -70, y: 0, z: 0}
+  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 77969682}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
 --- !u!114 &1014698919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5003,6 +5207,19 @@ MonoBehaviour:
   testToken: {fileID: 0}
   biasedDice: 0
   biasedOutcome: 6
+--- !u!65 &1014698920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014698915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1881173, y: 3.2455096, z: 0.20000003}
+  m_Center: {x: -0.0018344455, y: -0.048172686, z: 7.156775e-12}
 --- !u!1 &1023355332
 GameObject:
   m_ObjectHideFlags: 0
@@ -5047,11 +5264,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1061362783
 GameObject:
@@ -5339,11 +5562,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1105839880
 GameObject:
@@ -5555,11 +5784,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1121984789
 GameObject:
@@ -5605,11 +5840,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1130198929
 GameObject:
@@ -5655,11 +5896,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1173198626
 GameObject:
@@ -5884,7 +6131,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1190694763}
   - component: {fileID: 1190694766}
-  - component: {fileID: 1190694765}
   - component: {fileID: 1190694764}
   m_Layer: 0
   m_Name: Star (3)
@@ -5892,7 +6138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1190694763
 Transform:
   m_ObjectHideFlags: 0
@@ -5901,7 +6147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190694762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.045000315}
+  m_LocalPosition: {x: 0, y: -0.7, z: 0.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5950,19 +6196,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1190694765
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190694762}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1190694766
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6015,11 +6248,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1215141501
 GameObject:
@@ -6066,11 +6305,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1215141504
 BoxCollider:
@@ -6151,7 +6396,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1238230275
 GameObject:
@@ -6239,11 +6484,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1246934236
 BoxCollider:
@@ -6302,11 +6553,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1254798185
 GameObject:
@@ -6474,14 +6731,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254798185}
-  m_LocalRotation: {x: 0.15521759, y: -0, z: -0, w: 0.98788035}
-  m_LocalPosition: {x: -6.8, y: 32.2, z: -93.5}
+  m_LocalRotation: {x: 0.65978223, y: -0, z: -0, w: 0.7514569}
+  m_LocalPosition: {x: -6.8, y: 88, z: -11.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 17.859, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 82.567, y: 0, z: 0}
 --- !u!1 &1268977115
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,11 +6783,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1276556008
 GameObject:
@@ -6733,14 +6996,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290859656}
-  m_LocalRotation: {x: -0.4519009, y: -0, z: -0, w: 0.8920682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 121306823}
+  - {fileID: 1855912015}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1323709987
 GameObject:
@@ -6786,11 +7050,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1379002302
 GameObject:
@@ -6836,11 +7106,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1413501949
 GameObject:
@@ -6886,11 +7162,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1416483637
 GameObject:
@@ -6936,11 +7218,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1433691467
 GameObject:
@@ -6986,11 +7274,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1459211174
 GameObject:
@@ -7114,11 +7408,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1468942942
 GameObject:
@@ -7282,11 +7582,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1541244947
 GameObject:
@@ -7312,14 +7618,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541244947}
-  m_LocalRotation: {x: 0.7075177, y: -0, z: -0, w: 0.70669574}
-  m_LocalPosition: {x: 23.3, y: 0.6, z: 20.1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 23, y: -2.5, z: 22.5}
   m_LocalScale: {x: 32.980145, y: 32.98014, z: 32.98014}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1854991269}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 89.941, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &1541244949
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7515,11 +7821,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1555483828
 BoxCollider:
@@ -7700,7 +8012,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1586861741}
   - component: {fileID: 1586861744}
-  - component: {fileID: 1586861743}
   - component: {fileID: 1586861742}
   m_Layer: 0
   m_Name: Star
@@ -7708,7 +8019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1586861741
 Transform:
   m_ObjectHideFlags: 0
@@ -7717,7 +8028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586861740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.018, y: -0.7, z: 0.045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7766,19 +8077,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1586861743
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586861740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1586861744
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7996,11 +8294,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1700835706
 BoxCollider:
@@ -8059,11 +8363,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1713795179
 GameObject:
@@ -8110,11 +8420,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1713795182
 BoxCollider:
@@ -8256,11 +8572,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1755517281
 GameObject:
@@ -8776,6 +9098,16 @@ MonoBehaviour:
   p4TokensCount: 0
   level_Failed_Panel: {fileID: 1459211174}
   level_Complete_Panel: {fileID: 1569604910}
+  lifeEffects:
+  - {fileID: 1480543655460328, guid: 34e894b2e80a61d4ca97efec49ec9b6c, type: 3}
+  - {fileID: 1480543655460328, guid: e301b8e2e2980bd4a988d258840827d6, type: 3}
+  - {fileID: 1480543655460328, guid: 251411294ce455848b052407bddee3aa, type: 3}
+  - {fileID: 1480543655460328, guid: 33889bfee9864fb428d8509f41759db5, type: 3}
+  deathffects:
+  - {fileID: 1480543655460328, guid: bed6c1e27ae673d45a49ac579ceb4b9b, type: 3}
+  - {fileID: 1480543655460328, guid: 215e5132a516e2645be955f857bf90fa, type: 3}
+  - {fileID: 1480543655460328, guid: 74ad221d2b7d3814fa8226c06facc237, type: 3}
+  - {fileID: 1480543655460328, guid: 3a876607ff7a3414ab84cc8e3f9db052, type: 3}
   waypointIndexToSearch: 0
 --- !u!4 &1784934089
 Transform:
@@ -8917,6 +9249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f513346d3e9ff49ae8000d2ebf23cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerIndexs: 
 --- !u!114 &1784934093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8973,11 +9306,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1799249471
 GameObject:
@@ -9023,11 +9362,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1812338498
 GameObject:
@@ -9073,11 +9418,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1813756191
 GameObject:
@@ -9123,11 +9474,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1815016004
 GameObject:
@@ -9173,11 +9530,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1821847606
 GameObject:
@@ -9308,11 +9671,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1833835627
 BoxCollider:
@@ -9422,7 +9791,7 @@ RectTransform:
   - {fileID: 1569604911}
   - {fileID: 1459211175}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9488,8 +9857,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855912014}
-  m_LocalRotation: {x: -0.4519009, y: -0, z: -0, w: 0.8920682}
-  m_LocalPosition: {x: 0, y: 0, z: -3.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 680, y: 680, z: 680}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9500,9 +9869,9 @@ Transform:
   - {fileID: 301321534}
   - {fileID: 1105839881}
   - {fileID: 2035313005}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -53.731, y: 0, z: 0}
+  m_Father: {fileID: 1290859661}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1876667102
 GameObject:
   m_ObjectHideFlags: 0
@@ -9547,11 +9916,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1900655223
 GameObject:
@@ -9597,11 +9972,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1917917350
 GameObject:
@@ -9814,11 +10195,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &1956094173
 BoxCollider:
@@ -10144,11 +10531,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &2106540131
 GameObject:
@@ -10312,11 +10705,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!1 &1632529961107092
 GameObject:
@@ -12103,7 +12502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632530067187609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.45, y: 0, z: -18.87}
+  m_LocalPosition: {x: -26.45, y: -2.15, z: -19.09}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12179,7 +12578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632530135923688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27, y: 0, z: 27.03}
+  m_LocalPosition: {x: 27, y: -2.12, z: 26.7}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12480,7 +12879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632530567046170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.26, y: 0, z: -18.73}
+  m_LocalPosition: {x: -18.38, y: -2.16, z: -19.06}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12645,7 +13044,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632530937285683}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.260002, y: 0, z: -26.91}
+  m_LocalPosition: {x: -18.260002, y: -2.19, z: -27.19}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12660,7 +13059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632530943381996}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.099998, y: 0, z: 27.08}
+  m_LocalPosition: {x: 19.099998, y: -2.2, z: 26.8}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12736,7 +13135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531205936414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.01, y: 0, z: 18.87}
+  m_LocalPosition: {x: 27.01, y: -2.24, z: 18.4}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12766,7 +13165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531174888335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.5, y: 0, z: 18.99}
+  m_LocalPosition: {x: -26.5, y: -2.27, z: 18.61}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12826,7 +13225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531318832752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.02, y: 0, z: -26.94}
+  m_LocalPosition: {x: 19.02, y: -2.29, z: -27.2}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12841,7 +13240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531420078662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19, y: 0, z: -18.72}
+  m_LocalPosition: {x: 19, y: -2.2, z: -19}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12856,7 +13255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531465063675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.08, y: 0, z: -18.72}
+  m_LocalPosition: {x: 27.08, y: -2.17, z: -19.2}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12886,7 +13285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531485364279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.12, y: 0, z: -26.88}
+  m_LocalPosition: {x: 27.12, y: -2.28, z: -27.1}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12916,7 +13315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531450018158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.2, y: 0, z: 18.77}
+  m_LocalPosition: {x: 18.8, y: -2.2, z: 18.4}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12946,7 +13345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531551332592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.42, y: 0, z: 27.17}
+  m_LocalPosition: {x: -26.58, y: -2.26, z: 26.61}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13111,7 +13510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531656641843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.42, y: 0, z: 18.99}
+  m_LocalPosition: {x: -18.42, y: -2.14, z: 18.77}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13126,7 +13525,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531753176248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.45, y: 0, z: -26.82}
+  m_LocalPosition: {x: -26.45, y: -2.23, z: -27.17}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13336,7 +13735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632532016698363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.42, y: 0, z: 26.949999}
+  m_LocalPosition: {x: -18.42, y: -2.2, z: 26.64}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14195,11 +14594,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726738666103
 BoxCollider:
@@ -14226,11 +14631,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511726785679261
 BoxCollider:
@@ -14257,11 +14668,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726788408646
 BoxCollider:
@@ -14274,8 +14691,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1599288, z: 1}
+  m_Center: {x: 0, y: 0.079963684, z: 0}
 --- !u!65 &65511726790776619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14301,11 +14718,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511726807127108
 BoxCollider:
@@ -14332,11 +14755,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726845959693
 BoxCollider:
@@ -14363,11 +14792,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726852398206
 BoxCollider:
@@ -14394,11 +14829,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726858786027
 BoxCollider:
@@ -14425,11 +14866,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726861980016
 BoxCollider:
@@ -14456,11 +14903,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726881501242
 BoxCollider:
@@ -14487,11 +14940,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726967361110
 BoxCollider:
@@ -14518,11 +14977,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511726987290935
 BoxCollider:
@@ -14535,8 +15000,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.98342705, z: 1}
+  m_Center: {x: 0, y: -0.008286715, z: 0}
 --- !u!65 &65511726989155036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14562,11 +15027,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727017326855
 BoxCollider:
@@ -14593,11 +15064,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727024877799
 BoxCollider:
@@ -14624,11 +15101,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511727080822693
 BoxCollider:
@@ -14655,11 +15138,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727088790362
 BoxCollider:
@@ -14686,11 +15175,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727128553139
 BoxCollider:
@@ -14717,11 +15212,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727139912282
 BoxCollider:
@@ -14748,11 +15249,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727152517977
 BoxCollider:
@@ -14779,11 +15286,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727155732006
 BoxCollider:
@@ -14810,11 +15323,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727166754091
 BoxCollider:
@@ -14841,11 +15360,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727303679253
 BoxCollider:
@@ -14872,11 +15397,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727366157596
 BoxCollider:
@@ -14903,11 +15434,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727417204876
 BoxCollider:
@@ -14934,11 +15471,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727422767165
 BoxCollider:
@@ -14965,11 +15508,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727451178197
 BoxCollider:
@@ -14996,11 +15545,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727452223236
 BoxCollider:
@@ -15027,11 +15582,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727477045389
 BoxCollider:
@@ -15058,11 +15619,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727487707828
 BoxCollider:
@@ -15075,8 +15642,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.0289954, z: 1}
+  m_Center: {x: 0, y: 0.0144972205, z: 0}
 --- !u!65 &65511727512988693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15102,11 +15669,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727589245597
 BoxCollider:
@@ -15119,8 +15692,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1088899, z: 1}
+  m_Center: {x: 0, y: 0.054444492, z: 0}
 --- !u!65 &65511727595761201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15146,11 +15719,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727595872066
 BoxCollider:
@@ -15163,8 +15742,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.2647259, z: 1}
+  m_Center: {x: 0, y: 0.13236248, z: 0}
 --- !u!65 &65511727613489516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15190,11 +15769,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727625387308
 BoxCollider:
@@ -15221,11 +15806,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727705937212
 BoxCollider:
@@ -15252,11 +15843,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727731123082
 BoxCollider:
@@ -15283,11 +15880,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727732597986
 BoxCollider:
@@ -15314,11 +15917,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727735650255
 BoxCollider:
@@ -15345,11 +15954,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727759937437
 BoxCollider:
@@ -15376,11 +15991,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727769235912
 BoxCollider:
@@ -15407,11 +16028,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727774332840
 BoxCollider:
@@ -15438,11 +16065,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727800455212
 BoxCollider:
@@ -15469,11 +16102,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727807244425
 BoxCollider:
@@ -15500,11 +16139,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727825723105
 BoxCollider:
@@ -15531,11 +16176,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511727827901729
 BoxCollider:
@@ -15545,11 +16196,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531174888335}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.827705, z: 1}
+  m_Center: {x: 0, y: -0.086147964, z: 0}
 --- !u!65 &65511727857605552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15561,8 +16212,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1927314, z: 1}
+  m_Center: {x: 0, y: 0.09636545, z: 0}
 --- !u!65 &65511727961630711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15588,11 +16239,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511728066665882
 BoxCollider:
@@ -15619,11 +16276,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728068687808
 BoxCollider:
@@ -15636,8 +16299,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.7640035, z: 1}
+  m_Center: {x: 0, y: -0.11799824, z: 0}
 --- !u!65 &65511728086489550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15663,11 +16326,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728104562329
 BoxCollider:
@@ -15680,8 +16349,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.127979, z: 1}
+  m_Center: {x: 0, y: 0.06398904, z: 0}
 --- !u!65 &65511728116466261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15693,8 +16362,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1145259, z: 1}
+  m_Center: {x: 0, y: 0.05726248, z: 0}
 --- !u!65 &65511728124970623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15720,11 +16389,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511728153479176
 BoxCollider:
@@ -15751,11 +16426,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728170788446
 BoxCollider:
@@ -15765,11 +16446,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531551332592}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.90742767, z: 1}
+  m_Center: {x: 0, y: -0.046286404, z: 0}
 --- !u!65 &65511728206164190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15781,8 +16462,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.9554752, z: 1}
+  m_Center: {x: 0, y: -0.02226299, z: 0}
 --- !u!65 &65511728257822200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15808,11 +16489,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728308202728
 BoxCollider:
@@ -15825,8 +16512,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1395044, z: 1}
+  m_Center: {x: 0, y: 0.06975174, z: 0}
 --- !u!65 &65511728371581462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15838,8 +16525,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 0.82563734, z: 1}
+  m_Center: {x: 0, y: -0.087182045, z: 0}
 --- !u!65 &65511728409975177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15865,11 +16552,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728418958042
 BoxCollider:
@@ -15896,11 +16589,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511728447333212
 BoxCollider:
@@ -15927,11 +16626,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728451133025
 BoxCollider:
@@ -15958,11 +16663,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728452457355
 BoxCollider:
@@ -15989,11 +16700,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728457759145
 BoxCollider:
@@ -16020,11 +16737,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728475282270
 BoxCollider:
@@ -16051,11 +16774,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728476116730
 BoxCollider:
@@ -16082,11 +16811,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728490503621
 BoxCollider:
@@ -16113,11 +16848,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728496327355
 BoxCollider:
@@ -16144,11 +16885,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728506665969
 BoxCollider:
@@ -16175,11 +16922,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728524279966
 BoxCollider:
@@ -16206,11 +16959,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728537361699
 BoxCollider:
@@ -16237,11 +16996,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728537554075
 BoxCollider:
@@ -16268,11 +17033,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511728543482781
 BoxCollider:
@@ -16282,11 +17053,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632531656641843}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1478024, z: 1}
+  m_Center: {x: 0, y: 0.07390022, z: 0}
 --- !u!65 &65511728562482061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16312,11 +17083,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728605190275
 BoxCollider:
@@ -16343,11 +17120,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728626057473
 BoxCollider:
@@ -16374,11 +17157,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728668692772
 BoxCollider:
@@ -16405,11 +17194,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728669973845
 BoxCollider:
@@ -16419,11 +17214,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632532016698363}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 5.079176, z: 1}
-  m_Center: {x: 0, y: 2.0395875, z: 0}
+  m_Size: {x: 1, y: 1.1609063, z: 1}
+  m_Center: {x: 0, y: 0.08045268, z: 0}
 --- !u!65 &65511728674683998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16449,11 +17244,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728698957430
 BoxCollider:
@@ -16480,11 +17281,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 1
 --- !u!65 &65511728720668222
 BoxCollider:
@@ -16511,11 +17318,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728750185400
 BoxCollider:
@@ -16542,11 +17355,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728751264069
 BoxCollider:
@@ -16573,11 +17392,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728787960289
 BoxCollider:
@@ -16604,11 +17429,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728790219123
 BoxCollider:
@@ -16635,11 +17466,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728828174841
 BoxCollider:
@@ -16666,11 +17503,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728838860406
 BoxCollider:
@@ -16697,11 +17540,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
 --- !u!65 &65511728844010578
 BoxCollider:
@@ -16728,9 +17577,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aff9eb48cd25734c954b727511378d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPlayer: []
+  allPlayers: []
   redPlayers: []
   yellowPlayers: []
   greenPlayers: []
   bluePlayers: []
+  playerIndexeres: 
+  allPlayersCount: 0
+  bluePlayersCount: 0
+  redPlayersCount: 0
+  yellowPlayersCount: 0
+  greenPlayersCount: 0
   isSafeNode: 0
