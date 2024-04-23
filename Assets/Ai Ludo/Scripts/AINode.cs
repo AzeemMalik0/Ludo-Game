@@ -19,52 +19,33 @@ public class AINode : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        allPlayersCount = allPlayers.Count;
-        bluePlayersCount = bluePlayers.Count;
-        redPlayersCount = redPlayers.Count;
-        greenPlayersCount = greenPlayers.Count;
-        yellowPlayersCount = yellowPlayers.Count;
 
-        Debug.LogError("Triggered Added");
         if (isSafeNode)
         {
             allPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
             CheckAllPlayersList();
-            Debug.LogError("ALL Players Added Triggered Triggered");
         }
         else
         {
             
             switch (other.gameObject.GetComponent<PlayerToken>().player.playerIndex)
             {
-                case 1:
-                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
-                    bluePlayers.Add(other.gameObject.GetComponent<PlayerToken>());
+                case 1:bluePlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     CheckBluePlayersList();
-                    Debug.LogError("Blue Players Added Triggered Triggered");
 
                     return;
 
 
-                case 2:
-                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
-                    redPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
+                case 2:redPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     CheckRedPlayersList();
-                    Debug.LogError("Red Players Added Triggered Triggered");
                     return;
 
-                case 3:
-                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
-                    greenPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
+                case 3:greenPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     CheckGreenPlayersList();
-                    Debug.LogError("Green Players Added Triggered Triggered");
                     return;
 
-                case 4:
-                    Debug.LogError("the Player Index is : " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
-                    yellowPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
+                case 4:yellowPlayers.Add(other.gameObject.GetComponent<PlayerToken>());
                     CheckYellowPlayersList();
-                    Debug.LogError("Yellow Players Added Triggered Triggered");
                     return;
                 default:
                     return;
@@ -75,13 +56,6 @@ public class AINode : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        allPlayersCount = allPlayers.Count;
-        bluePlayersCount = bluePlayers.Count;
-        redPlayersCount = redPlayers.Count;
-        greenPlayersCount = greenPlayers.Count;
-        yellowPlayersCount = yellowPlayers.Count;
-
-        Debug.LogError("Triggered Removed");
 
         if (isSafeNode)
         {
@@ -90,35 +64,29 @@ public class AINode : MonoBehaviour
             
             CheckAllPlayersList();
             
-            Debug.LogError("All Players Removed Triggered Triggered");
         }
         else
         {
-            Debug.LogError("the Player Index is on Exit: " + other.gameObject.GetComponent<PlayerToken>().player.playerIndex);
             switch (other.gameObject.GetComponent<PlayerToken>().player.playerIndex)
             {
                 case 1:
                     bluePlayers.Remove(other.gameObject.GetComponent<PlayerToken>());
                     CheckBluePlayersList();
-                    Debug.LogError("Blue Players Removed Triggered Triggered");
                     return;
 
                 case 2:
                     redPlayers.Remove(other.gameObject.GetComponent<PlayerToken>());
                     CheckRedPlayersList();
-                    Debug.LogError("Red Players Removed Triggered Triggered");
                     return;
 
                 case 3:
                     greenPlayers.Remove(other.gameObject.GetComponent<PlayerToken>());
                     CheckGreenPlayersList();
-                    Debug.LogError("Green Players Removed Triggered Triggered");
                     return;
 
                 case 4:
                     yellowPlayers.Remove(other.gameObject.GetComponent<PlayerToken>());
                     CheckYellowPlayersList();
-                    Debug.LogError("Yellow Players Removed Triggered Triggered");
                     return;
 
 
@@ -132,18 +100,15 @@ public class AINode : MonoBehaviour
     {
         if (allPlayers.Count == 1)
         {
-            Debug.LogError("Triggered Added all 1");
-
-            allPlayers[0].transform.position = this.transform.position;
-            allPlayers[0].transform.localScale = new Vector3(3f,3f, 3f);
+             allPlayers[0].transform.position = this.transform.position;
+            allPlayers[0].transform.localScale = new Vector3(3.3f,3.3f, 3.3f);
             Debug.LogError("the Player Pos is : " + allPlayers[0].transform.position);
 
             return;
         }
         if (allPlayers.Count == 2)
         {
-            Debug.LogError("Triggered Added all 2");
-
+           
             Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
             Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
@@ -158,7 +123,6 @@ public class AINode : MonoBehaviour
         }
         if (allPlayers.Count == 3)
         {
-            Debug.LogError("Triggered Added all 2");
 
             Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
@@ -179,7 +143,6 @@ public class AINode : MonoBehaviour
         }
         if (allPlayers.Count == 4)
         {
-            Debug.LogError("Triggered Added all 2");
 
             Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
 
@@ -210,62 +173,57 @@ public class AINode : MonoBehaviour
     {
         if (bluePlayers.Count == 1)
         {
-            Debug.LogError("Triggered Added all 1");
-
+            
             bluePlayers[0].transform.position = this.transform.position;
-            bluePlayers[0].transform.localScale = new Vector3(4, 4, 4);
-            Debug.LogError("the Player Pos is : " + bluePlayers[0].transform.position);
-
+            bluePlayers[0].transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+           
             return;
         }
         if (bluePlayers.Count == 2)
         {
-            Debug.LogError("Triggered Added all 2");
+           
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
-
-            bluePlayers[0].transform.localScale = Vector3.Slerp(bluePlayers[0].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            bluePlayers[0].transform.localScale = Vector3.Slerp(bluePlayers[0].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             bluePlayers[0].transform.position = firstCubePosition;
 
-            bluePlayers[1].transform.localScale = Vector3.Slerp(bluePlayers[1].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            bluePlayers[1].transform.localScale = Vector3.Slerp(bluePlayers[1].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             bluePlayers[1].transform.position = secondCubePosition;
 
             return;
         }
         if (bluePlayers.Count == 3)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            bluePlayers[0].transform.localScale = Vector3.Slerp(bluePlayers[0].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            bluePlayers[0].transform.localScale = Vector3.Slerp(bluePlayers[0].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             bluePlayers[0].transform.position = firstCubePosition;
             
-            bluePlayers[1].transform.localScale = Vector3.Slerp(bluePlayers[1].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            bluePlayers[1].transform.localScale = Vector3.Slerp(bluePlayers[1].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             bluePlayers[1].transform.position = secondCubePosition;
             
-            bluePlayers[2].transform.localScale = Vector3.Slerp(bluePlayers[2].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            bluePlayers[2].transform.localScale = Vector3.Slerp(bluePlayers[2].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             bluePlayers[2].transform.position = thiredCubePosition;
 
             return;
         }
         if (bluePlayers.Count == 4)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1.8f);
+            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1f);
 
             bluePlayers[0].transform.localScale = Vector3.Slerp(bluePlayers[0].transform.localScale, new Vector3(1f, 1f, 1f), .5f); ;
             bluePlayers[0].transform.position = firstCubePosition;
@@ -288,62 +246,57 @@ public class AINode : MonoBehaviour
     {
         if (redPlayers.Count == 1)
         {
-            Debug.LogError("Triggered Added all 1");
-
+            
             redPlayers[0].transform.position = this.transform.position;
-            redPlayers[0].transform.localScale = new Vector3(4, 4, 4);
-            Debug.LogError("the Player Pos is : " + redPlayers[0].transform.position);
-
+            redPlayers[0].transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+            
             return;
         }
         if (redPlayers.Count == 2)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
-
-            redPlayers[0].transform.localScale = Vector3.Slerp(redPlayers[0].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            redPlayers[0].transform.localScale = Vector3.Slerp(redPlayers[0].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             redPlayers[0].transform.position = firstCubePosition;
 
-            redPlayers[1].transform.localScale = Vector3.Slerp(redPlayers[1].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            redPlayers[1].transform.localScale = Vector3.Slerp(redPlayers[1].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             redPlayers[1].transform.position = secondCubePosition;
 
             return;
         }
         if (redPlayers.Count == 3)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            redPlayers[0].transform.localScale = Vector3.Slerp(redPlayers[0].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            redPlayers[0].transform.localScale = Vector3.Slerp(redPlayers[0].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             redPlayers[0].transform.position = firstCubePosition;
 
-            redPlayers[1].transform.localScale = Vector3.Slerp(redPlayers[1].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            redPlayers[1].transform.localScale = Vector3.Slerp(redPlayers[1].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             redPlayers[1].transform.position = secondCubePosition;
 
-            redPlayers[2].transform.localScale = Vector3.Slerp(redPlayers[2].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            redPlayers[2].transform.localScale = Vector3.Slerp(redPlayers[2].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             redPlayers[2].transform.position = thiredCubePosition;
 
             return;
         }
         if (redPlayers.Count == 4)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1.8f);
+            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1f);
 
             redPlayers[0].transform.localScale = Vector3.Slerp(redPlayers[0].transform.localScale, new Vector3(1f, 1f, 1f), .5f); ;
             redPlayers[0].transform.position = firstCubePosition;
@@ -366,62 +319,57 @@ public class AINode : MonoBehaviour
     {
         if (greenPlayers.Count == 1)
         {
-            Debug.LogError("Triggered Added all 1");
-
+            
             greenPlayers[0].transform.position = this.transform.position;
-            greenPlayers[0].transform.localScale = new Vector3(4, 4, 4);
-            Debug.LogError("the Player Pos is : " + greenPlayers[0].transform.position);
-
+            greenPlayers[0].transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+            
             return;
         }
         if (greenPlayers.Count == 2)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
-
-            greenPlayers[0].transform.localScale = Vector3.Slerp(greenPlayers[0].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            greenPlayers[0].transform.localScale = Vector3.Slerp(greenPlayers[0].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             greenPlayers[0].transform.position = firstCubePosition;
 
-            greenPlayers[1].transform.localScale = Vector3.Slerp(greenPlayers[1].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            greenPlayers[1].transform.localScale = Vector3.Slerp(greenPlayers[1].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f); ;
             greenPlayers[1].transform.position = secondCubePosition;
 
             return;
         }
         if (greenPlayers.Count == 3)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            greenPlayers[0].transform.localScale = Vector3.Slerp(greenPlayers[0].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            greenPlayers[0].transform.localScale = Vector3.Slerp(greenPlayers[0].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             greenPlayers[0].transform.position = firstCubePosition;
 
-            greenPlayers[1].transform.localScale = Vector3.Slerp(greenPlayers[1].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            greenPlayers[1].transform.localScale = Vector3.Slerp(greenPlayers[1].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             greenPlayers[1].transform.position = secondCubePosition;
 
-            greenPlayers[2].transform.localScale = Vector3.Slerp(greenPlayers[2].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            greenPlayers[2].transform.localScale = Vector3.Slerp(greenPlayers[2].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             greenPlayers[2].transform.position = thiredCubePosition;
 
             return;
         }
         if (greenPlayers.Count == 4)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1.8f);
+            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1f);
 
             greenPlayers[0].transform.localScale = Vector3.Slerp(greenPlayers[0].transform.localScale, new Vector3(1f, 1f, 1f), .5f); ;
             greenPlayers[0].transform.position = firstCubePosition;
@@ -444,62 +392,57 @@ public class AINode : MonoBehaviour
     {
         if (yellowPlayers.Count == 1)
         {
-            Debug.LogError("Triggered Added all 1");
 
             yellowPlayers[0].transform.position = this.transform.position;
-            yellowPlayers[0].transform.localScale = new Vector3(4, 4, 4);
-            Debug.LogError("the Player Pos is : " + yellowPlayers[0].transform.position);
-
+            yellowPlayers[0].transform.localScale = new Vector3(3.3f, 3.3f, 3.3f);
+            
             return;
         }
         if (yellowPlayers.Count == 2)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
-
-            yellowPlayers[0].transform.localScale = Vector3.Slerp(yellowPlayers[0].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            yellowPlayers[0].transform.localScale = Vector3.Slerp(yellowPlayers[0].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f);
             yellowPlayers[0].transform.position = firstCubePosition;
 
-            yellowPlayers[1].transform.localScale = Vector3.Slerp(yellowPlayers[1].transform.localScale, new Vector3(3f, 3f, 3f), .5f); ;
+            yellowPlayers[1].transform.localScale = Vector3.Slerp(yellowPlayers[1].transform.localScale, new Vector3(2.2f, 2.2f, 2.2f), .5f);
             yellowPlayers[1].transform.position = secondCubePosition;
 
             return;
         }
         if (yellowPlayers.Count == 3)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            yellowPlayers[0].transform.localScale = Vector3.Slerp(yellowPlayers[0].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            yellowPlayers[0].transform.localScale = Vector3.Slerp(yellowPlayers[0].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             yellowPlayers[0].transform.position = firstCubePosition;
 
-            yellowPlayers[1].transform.localScale = Vector3.Slerp(yellowPlayers[1].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            yellowPlayers[1].transform.localScale = Vector3.Slerp(yellowPlayers[1].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             yellowPlayers[1].transform.position = secondCubePosition;
 
-            yellowPlayers[2].transform.localScale = Vector3.Slerp(yellowPlayers[2].transform.localScale, new Vector3(2f, 2f, 2f), .5f); ;
+            yellowPlayers[2].transform.localScale = Vector3.Slerp(yellowPlayers[2].transform.localScale, new Vector3(1.7f, 1.7f, 1.7f), .5f); ;
             yellowPlayers[2].transform.position = thiredCubePosition;
 
             return;
         }
         if (yellowPlayers.Count == 4)
         {
-            Debug.LogError("Triggered Added all 2");
+            
+            Vector3 firstCubePosition = this.transform.position + new Vector3(-1f, 0f, 0f);
 
-            Vector3 firstCubePosition = this.transform.position + new Vector3(-1.8f, 0f, 0f);
+            Vector3 secondCubePosition = this.transform.position + new Vector3(1f, 0f, 0f);
 
-            Vector3 secondCubePosition = this.transform.position + new Vector3(1.8f, 0f, 0f);
+            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1f);
 
-            Vector3 thiredCubePosition = this.transform.position + new Vector3(0f, 0f, 1.8f);
-
-            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1.8f);
+            Vector3 fouthCubePosition = this.transform.position + new Vector3(0f, 0f, -1f);
 
             yellowPlayers[0].transform.localScale = Vector3.Slerp(yellowPlayers[0].transform.localScale, new Vector3(1f, 1f, 1f), .5f); ;
             yellowPlayers[0].transform.position = firstCubePosition;

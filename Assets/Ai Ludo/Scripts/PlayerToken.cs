@@ -195,10 +195,46 @@ namespace com.bhambhoo.fairludo
                         //GameManager.Instance.SetGameSpeed(GameManager.GameSpeed.Normal);
                         // Creating killed token's die animation here to create systematic delays in game-actions
                         // TODO update this for networked game
+                        
+                        if(oneToken.player.playerIndex==1)
+                        {
+                            Instantiate(AIGameManager.Instance.deathffects[0], oneToken.transform);
+                        }
+                        else if(oneToken.player.playerIndex == 2)
+                        {
+                            Instantiate(AIGameManager.Instance.deathffects[1], oneToken.transform);
+                        }
+                        else if (oneToken.player.playerIndex == 3)
+                        {
+                            Instantiate(AIGameManager.Instance.deathffects[2], oneToken.transform);
+                        }
+                        else if (oneToken.player.playerIndex == 4)
+                        {
+                            Instantiate(AIGameManager.Instance.deathffects[3], oneToken.transform);
+                        }
                         yield return new WaitForSeconds(Constants.delayBetweenTokenMoves);
                         oneToken.localWaypointIndex = -1;
                         SanUtils.PlaySound(Constants.Instance.sfxTokenKill);
+                        yield return new WaitForSeconds(2);
                         oneToken.transform.position = oneToken.Base.position;
+
+                        if (oneToken.player.playerIndex == 1)
+                        {
+                            Instantiate(AIGameManager.Instance.lifeEffects[0], oneToken.transform);
+                        }
+                        else if (oneToken.player.playerIndex == 2)
+                        {
+                            Instantiate(AIGameManager.Instance.lifeEffects[1], oneToken.transform);
+                        }
+                        else if (oneToken.player.playerIndex == 3)
+                        {
+                            Instantiate(AIGameManager.Instance.lifeEffects[2], oneToken.transform);
+                        }
+                        else if (oneToken.player.playerIndex == 4)
+                        {
+                            Instantiate(AIGameManager.Instance.lifeEffects[3], oneToken.transform);
+                        }
+                        yield return new WaitForSeconds(1);
                         yield return new WaitForSeconds(Constants.delayAfterTokenMoveComplete);
 
                         MatchManager.Instance.diceRollsRemaining++;

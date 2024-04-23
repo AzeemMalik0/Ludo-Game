@@ -8,7 +8,7 @@ namespace com.bhambhoo.fairludo
     {
         public Sprite[] diceSides;
         SpriteRenderer rend;
-        public BoxCollider2D collider;
+        public BoxCollider collider;
         bool coroutineAllowed = true;
 
         public PlayerToken testToken;
@@ -21,7 +21,7 @@ namespace com.bhambhoo.fairludo
         // Start is called before the first frame update
         void Start()
         {
-            collider = GetComponent<BoxCollider2D>();
+            collider = GetComponent<BoxCollider>();
             rend = GetComponent<SpriteRenderer>();
             diceSides = Resources.LoadAll<Sprite>("DiceSides/");
             rend.sprite = diceSides[5];
