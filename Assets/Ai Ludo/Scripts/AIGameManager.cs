@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace com.bhambhoo.fairludo
 {
@@ -44,7 +45,11 @@ namespace com.bhambhoo.fairludo
         void Start()
         {
             SetGameSpeed(speedMode);
-
+            if(Generic_UI.Instance)
+            {
+                Generic_UI.Instance.Player_no.gameObject.SetActive(false);
+            }
+            
             MatchManager.Instance.StartMatch(selectedNumPlayers, selectedMatchType);
 
             // Testing
@@ -125,6 +130,16 @@ namespace com.bhambhoo.fairludo
                     break;
             }
             Debug.Log("Set GameSpeed to " + gameSpeed);
+        }
+
+        public void Restart()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        public void Home()
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
